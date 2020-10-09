@@ -4,6 +4,7 @@ public class User {
     private  String name;
     private  int age;
     private  String address;
+    private  String  sex;
 
     public String getAddress() {
         return address;
