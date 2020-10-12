@@ -5,6 +5,7 @@ public class User {
     private  int age;
     private  String address;
     private  String  sex;
+    private Integer numbe;
 
     public String getAddress() {
         return address;
