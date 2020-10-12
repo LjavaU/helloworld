@@ -14,7 +14,7 @@ public class Test {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-       // list.add("哈哈");
+        list.add(1998);
         // 跳过元素
         List<Object> collect = list.stream().skip(5).collect(Collectors.toList());
         System.out.println(collect);
