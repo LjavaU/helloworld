@@ -3,15 +3,7 @@ package com.itheima.domain;
 public class User {
     private  String name;
     private  int age;
-    private  String address;
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
+    private  String addre;
 
     public String getName() {
         return name;
@@ -29,12 +21,4 @@ public class User {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                '}';
-    }
 }
