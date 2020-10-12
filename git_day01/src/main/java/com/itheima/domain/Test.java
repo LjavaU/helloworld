@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Author: 陆浩
- * @Date: 2020/10/10 10:54
+ * @Date: 2020/10/9 20:56
  */
 public class Test {
     public static  void test1(){
@@ -32,6 +32,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
+        System.out.println("测试开始");
         test1();
     }
 }
